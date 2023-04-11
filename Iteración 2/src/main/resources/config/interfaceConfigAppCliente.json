@@ -1,0 +1,41 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Cliente",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+			
+		{ "menuTitle": "Carrito",
+		  "options":
+			[
+				{
+					"label": "Solicitar Carrito de compras",
+					"event": "solicitarCarrito"
+				},
+				{
+					"label": "Añadir producto al carrito",
+					"event": "agregarProductoCarrito"
+				},
+				{
+					"label": "Devolver producto del carrito",
+					"event": "devolverProductoCarrito"
+				},
+				{
+					"label": "Abandonar carrito de compras",
+					"event": "abandonarCarrito"
+				}
+			]
+		},
+		{ "menuTitle": "Pagos",
+		  "options":
+			[
+				{
+					"label": "Pagar la compra",
+					"event": "pagarCompra"
+				}
+			]
+		}	
+	]
+}
+	

@@ -1,0 +1,90 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Gerente de una sucursal",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registros",
+		  "options":
+			[
+	
+				{
+					"label": "Registrar Proveedores",
+					"event": "registrarProveedores"
+				},
+				{
+					"label": "Registrar Productos",
+					"event": "registrarProductos"
+				},
+				{
+					"label": "Registrar Clientes",
+					"event": "registrarClientes"
+				},
+				{
+					"label": "Registrar una promoción",
+					"event": "registrarPromocion"
+				}
+			]
+		},
+				
+		{ "menuTitle": "Manejo de pedidos",
+		  "options":
+			[
+				{
+					"label": "Registrar un pedido de un producto a un proveedor para una sucursal",
+					"event": "hacerPedidoProveedor"
+				},
+				{
+					"label": "Consolidar pedidos a los proveedores",
+					"event": "consolidarPedidos"
+				}
+			]
+		},
+		
+		{ "menuTitle": "Manejo de almacenes",
+		  "options":
+			[
+				{
+					"label": "Registrar una bodega",
+					"event": "registrarBodega"
+				},
+				{
+					"label": "Registrar un estante",
+					"event": "registrarEstante"
+				}
+			]
+		},
+		
+		{ "menuTitle": "Consultas",
+		  "options":
+			[
+				{
+					"label": "Mostrar dinero recolectado por ventas",
+					"event": "consultarDineroRecolectado"
+				},
+				{
+					"label": "Mostrar las 20 promociones más populares",
+					"event": "consultarPromocionesPopulares"
+				},
+				{
+					"label": "Mostrar índice de ocupación de bogedas y estantes",
+					"event": "consultarIndiceOcupacion"
+				},
+				{
+					"label": "Mostrar productos que cumplen condiciones",
+					"event": "consultarProductosEspecificos"
+				},{
+					"label": "Mostar compras hechas a proveedores",
+					"event": "consultarComprasProveedores"
+				},
+				{
+					"label": "Mostrar ventas a un cliente",
+					"event": "consultarVentasCliente"
+				}
+			]
+		}		
+		
+	]
+}
+	

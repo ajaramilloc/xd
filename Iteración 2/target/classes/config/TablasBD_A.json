@@ -1,0 +1,20 @@
+{
+	"title": "Nombres de las tablas de SuperAndes Uniandes para la aplicación A",
+	"unidadPersistencia": "SuperAndes",
+	"tablas":
+	[
+		"alohAndes_sequence",
+		"OFERTA_APARTAMENTO",
+		"OFERTA_VIVIENDA_COMUNIDAD",
+		"OFERTA_VIVIENDA_PROPIA",
+		"OPERADOR_EMPRESA_VIVIENDA",
+		"OPERADOR_HOSTAL",
+		"OPERADOR_HOTEL",
+		"RESERVA", 
+		"USUARIO_OPERADOR",
+		"USUARIO_PERSONA",
+		"OFERTAS_ALOJAMIENTO",
+		"APARTAMENTO",
+		"OFERTA_HABITACION"
+	]
+}

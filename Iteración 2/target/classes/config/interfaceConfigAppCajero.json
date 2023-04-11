@@ -1,0 +1,20 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Cajero",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+			
+		{ "menuTitle": "Manejos de ventas",
+		  "options":
+			[
+				{
+					"label": "Registrar una venta de un producto",
+					"event": "registrarVentaProducto"
+				}
+			]
+		}		
+	]
+}
+	

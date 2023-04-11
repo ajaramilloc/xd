@@ -1,0 +1,1250 @@
+11:42:05,711 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos
+11:42:05,809 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.persistencia.PersistenciaParranderos] - Borrada la base de datos
+11:42:05,810 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos: Listo!
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+17:49:19,896 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:19:31,913 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+21:19:32,062 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:20:15,492 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+21:20:15,493 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+21:20:15,529 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+21:20:15,530 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:20:57,708 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:20:57,709 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+21:20:57,710 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+21:20:57,712 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:21:39,927 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:21:39,927 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+21:21:39,928 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+21:21:39,930 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:22:22,121 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de acceso normal FALLÓ !!. La excepción generada es: javax.jdo.JDOFatalUserException
+21:22:22,121 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Error de E/S: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
+18:38:03,247 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:38:03,248 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:38:03,269 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:39:58,989 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:39:58,990 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:39:59,007 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:51:29,711 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Gaseosa
+18:51:30,364 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=1, nombre=Gaseosa]
+18:57:57,785 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Cerveza
+18:57:57,856 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=2, nombre=Cerveza]
+18:58:11,449 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Vino Tinto
+18:58:11,500 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=3, nombre=Vino Tinto]
+18:58:20,091 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Jugo Natural
+18:58:20,196 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=4, nombre=Jugo Natural]
+18:58:25,580 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Agua
+18:58:25,812 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=5, nombre=Agua]
+18:58:34,709 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Wiskey
+18:58:34,758 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=6, nombre=Wiskey]
+18:58:44,131 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Aguardiente
+18:58:44,204 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=7, nombre=Aguardiente]
+18:58:52,060 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Tequila
+18:58:52,125 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=8, nombre=Tequila]
+18:59:09,861 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Ron
+18:59:09,934 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=9, nombre=Ron]
+18:59:44,686 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Smirnoff
+18:59:44,786 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=10, nombre=Smirnoff]
+19:00:17,875 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Agua con gas
+19:00:17,932 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=11, nombre=Agua con gas]
+19:00:37,316 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: Mojito
+19:00:37,422 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Adicionando Tipo de bebida: TipoBebida [id=12, nombre=Mojito]
+21:44:38,078 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+21:44:38,317 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:44:38,731 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+21:44:38,731 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOUserException: PersistenceManagerFactory debe usar "persistence-unit" con nombre "Parranderos" pero no hay ninguna con ese nombre
+21:44:38,738 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+21:44:38,739 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:44:40,932 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:44:40,932 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+NestedThrowables:
+java.sql.SQLRecoverableException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+21:44:40,933 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+21:44:40,933 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:44:44,713 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:44:44,713 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+21:44:44,714 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+21:44:44,714 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:44:46,740 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión realizada correstamente
+21:44:46,740 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Cerrando la conexión
+21:44:46,748 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión cerrada
+21:48:55,420 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+21:48:55,471 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:48:56,081 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:48:56,081 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+NestedThrowables:
+java.sql.SQLRecoverableException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+21:48:56,081 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+21:48:56,082 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:48:59,834 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+21:48:59,834 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+21:48:59,835 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+21:48:59,836 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+21:49:01,870 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión realizada correstamente
+21:49:01,870 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Cerrando la conexión
+21:49:01,877 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Conexión cerrada
+09:34:43,536 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+09:34:43,537 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+09:34:43,572 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:34:16,439 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:34:16,439 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:34:16,465 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:42:29,075 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:42:29,075 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:42:29,093 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:14:22,254 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:14:22,255 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:14:22,273 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:14:50,941 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: Sucursal1
+20:14:54,846 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_PROVEEDOR(nombre, direccion, ciudad, tamanho, gerente, supermercado) values (?, ?, ?, ?, ?, ?)".
+ORA-00904: "SUPERMERCADO": identificador no válido
+
+20:14:54,879 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: null
+21:05:27,341 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:05:27,342 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:05:27,365 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:07:40,834 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado Sucursal1
+21:07:42,563 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION(identificacion, nombre, tipoDocumento, correo, palabraClave, rol, nombreSucursal, direccionSucursal, ciudadSucursal, nombreSupermercado) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "NOMBRESUPERMERCADO": identificador no válido
+
+21:07:43,231 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado: null
+21:43:16,501 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:43:16,502 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:43:16,523 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:44:38,089 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado Empleado2
+21:44:39,778 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION(identificacion, nombre, tipoDocumento, correo, palabraClave, rol, nombreSucursal, direccionSucursal, ciudadSucursal, nombreSupermercado) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "NOMBRESUPERMERCADO": identificador no válido
+
+21:44:39,809 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado: null
+09:59:37,708 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:03:26,973 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:06:24,302 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:10:53,001 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:11:46,693 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:11:53,143 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración por defecto
+10:13:28,914 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:13:34,000 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración por defecto
+10:14:16,718 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:14:22,351 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración por defecto
+10:17:50,110 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:21:33,352 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:21:45,982 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:21:53,220 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:21:57,758 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:21:57,759 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:42:59,324 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:47:18,428 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:55:01,406 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:57:47,192 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:57:53,042 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:57:53,042 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:58:13,687 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:58:19,942 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:58:19,942 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:58:34,994 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:58:42,006 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:58:42,006 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:59:42,121 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:59:50,490 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:59:50,490 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:02:16,497 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:02:21,545 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:02:21,546 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:58:54,455 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:00:22,416 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:00:29,382 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:00:29,382 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:00:50,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:00:55,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:00:55,891 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:04:23,535 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:04:29,945 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:04:29,945 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:05:21,905 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:05:45,361 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:05:45,361 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:05:51,267 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:06:09,997 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:06:09,997 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:08:13,563 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:08:38,012 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:08:38,012 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:08:52,787 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:08:59,697 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:08:59,697 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:09:27,402 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:09:32,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:09:32,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:10:09,410 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: Sucursal2
+13:10:10,839 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: Sucursal [nombre=Sucursal2, direccion=Direccion2, ciudad=Bogotá, tamanho=300, gerente=10013, supermercado=Supermercado1]
+13:11:24,504 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado Empleado7
+13:11:24,649 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado: Empleado [identificacion=21, nombre=Empleado7, tipoDocumento=Cédula de extranjería, correo=Correo7, palabraClave=PalabraClave7, rol=Cajero, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá, nombreSupermercado=Supermercado1]
+13:14:07,396 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:15:09,818 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:15:09,818 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:16:03,142 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado Empleado8
+13:16:03,526 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando empleado: Empleado [identificacion=10018, nombre=Empleado8, tipoDocumento=Cédula de ciudadanía, correo=Correo8, palabraClave=PalabraClave8, rol=Gerente, nombreSucursal=Sucursal2, direccionSucursal=Direccion2, ciudadSucursal=Bogotá, nombreSupermercado=Supermercado2]
+13:25:21,004 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:25:29,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:25:29,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:25:36,926 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:25:44,583 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:25:44,583 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:26:23,987 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacen
+13:26:24,998 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ALMACEN(id, tipo, capacidad, espacioDisponible, tipoProductoPermitido, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "ID": identificador no válido
+
+13:26:25,028 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacecn: null tuplas insertadas
+13:27:53,508 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:28:00,195 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:28:00,195 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:28:27,290 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacen
+13:28:28,885 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacecn: Almacen [idAlmacen=23, tipo=Bodega, capacidad=50, espacioDisponible=30, tipoProductoPermitido=null, nombreSucursal=Sucursal2, direccionSucursal=Direccion2, ciudadSucursal=Bogotá] tuplas insertadas
+13:31:06,406 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:31:52,146 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:31:59,320 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:31:59,320 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:32:36,705 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacen
+13:32:37,188 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacecn: Almacen [idAlmacen=24, tipo=Estante, capacidad=60, espacioDisponible=20, tipoProductoPermitido=null, nombreSucursal=Sucursal2, direccionSucursal=Direccion2, ciudadSucursal=Bogotá] tuplas insertadas
+13:43:36,337 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:43:58,108 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:43:58,108 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:44:41,562 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacen
+13:44:42,636 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacecn: Almacen [idAlmacen=25, tipo=Bodega, capacidad=60, espacioDisponible=20, tipoProductoPermitido=null, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá] tuplas insertadas
+13:46:38,275 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:46:48,119 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:46:48,119 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:47:42,909 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacen
+13:47:44,497 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando almacecn: Almacen [idAlmacen=26, tipo=Estante, capacidad=80, espacioDisponible=10, tipoProductoPermitido=null, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá] tuplas insertadas
+13:50:23,142 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:50:30,354 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:50:30,354 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:53:28,203 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Proveedor: Proveedor1
+13:53:29,958 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Proveedor: Proveedor [nit=10101, nombre=Proveedor1, calificacion=Bueno, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá, supermercado=Supermercado1]
+14:03:14,279 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:03:28,069 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:03:28,069 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:21:35,372 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:21:44,908 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:21:44,908 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:23:50,774 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando cliente: 
+14:24:07,630 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando cliente: Cliente [idCliente=27, identificacion=11101nit=0nombre=Cliente1, correo=Correo88, direccion=direcccion88, puntosAcumulados=1200]
+15:50:30,032 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:50:37,547 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz|
+15:50:37,547 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:52:07,872 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+15:52:08,699 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, espEmpacado, precioUnitario, nivelReorden, idPromocion, idEstante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDESTANTE": identificador no válido
+
+15:52:08,732 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+15:56:45,295 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:57:15,085 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:57:15,085 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:00:18,306 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:00:19,431 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, espEmpacado, precioUnitario, nivelReorden, idPromocion, idEstante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDESTANTE": identificador no válido
+
+16:00:19,460 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+16:05:43,393 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:06:34,691 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:07:23,879 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:07:35,555 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:07:35,555 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:08:11,269 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:08:12,184 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, espEmpacado, precioUnitario, nivelReorden, idPromocion, idEstante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDESTANTE": identificador no válido
+
+16:08:12,212 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+16:29:27,663 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:30:01,244 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:30:01,245 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:31:06,658 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:36:13,907 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:36:21,347 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:36:21,347 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:37:03,740 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:37:04,800 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, especificacionEmpacado, precioUnitario, nivelReorden, idPromocion, idEstante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDESTANTE": identificador no válido
+
+16:37:04,837 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+16:41:32,137 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:41:39,546 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:41:39,546 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:42:20,421 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:42:21,320 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, especificacionEmpacado, precioUnitario, nivelReorden, idPromocion, idEstante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDESTANTE": identificador no válido
+
+16:42:21,351 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+16:43:58,739 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:05,099 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:44:05,099 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:44:46,207 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto1
+16:44:47,013 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PRODUCTO_SUPERMERCADO(codigoBarras, nombre, marca, categoria, presentacion, cantidad, unidadMedida, especificacionEmpacado, precioUnitario, nivelReorden, promocion, estante) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769442) violada - clave principal no encontrada
+
+16:44:47,671 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: null
+16:57:40,460 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:57:47,505 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:57:47,505 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:58:59,974 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado con nombre Producto2
+16:59:01,971 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando producto supermercado: ProductoSupermercado [codigoBarras=111112, nombre=Producto2, marca=Marca2, categoria=Cereales, presentacion=Pres, cantidad=200, unidadMedida=grespEmpacado=esp, precioUnitario=1900, nivelReorden=3, promocion=11001, estante=26]
+17:11:22,815 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:11:30,454 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:11:30,455 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:13:34,842 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+17:13:36,352 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, idVentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "IDVENTAASOCIADA": identificador no válido
+
+17:13:36,381 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+17:14:44,960 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:14:53,020 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:14:53,020 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:15:44,174 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+17:15:45,697 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+17:15:45,726 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:07:41,558 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:07:47,614 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:07:47,614 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:08:31,344 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:08:32,394 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:08:32,432 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:10:26,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:10:33,858 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:10:33,858 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:11:13,039 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:11:13,855 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:11:13,881 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:15:16,966 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:15:17,056 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:15:17,079 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:16:28,579 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:16:38,919 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:16:38,919 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:16:58,296 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:16:59,106 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:16:59,132 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:32:46,564 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:32:53,798 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:32:53,798 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:33:27,921 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:33:29,102 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:33:29,186 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:33:58,146 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:34:07,742 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:34:07,743 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:34:38,453 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:34:39,298 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PROMOCION (idPromocion, tipo, duracion, VentaAsociada, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (ISIS2304C03202220.SYS_C00769429) violada - clave principal no encontrada
+
+18:34:39,323 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: null
+18:35:33,138 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:35:38,887 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:35:38,887 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:36:11,748 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion
+18:36:12,620 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Promocion: Promocion [idPromocion=52, tipo=Tipo 4, idVentaAsociada=1011101, duracion=20/07/2022-25/07/2022, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá]
+19:10:57,542 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:11:04,377 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:11:04,377 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:12:34,737 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido
+19:12:36,297 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PEDIDO(idpedido, tipo, proveedor, estado, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-02290: restricción de control (ISIS2304C03202220.SYS_C00769405) violada
+
+19:12:36,330 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido: null tuplas insertadas
+19:13:20,901 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:13:28,090 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:13:28,090 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:13:54,159 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido
+19:13:55,696 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido: Pedido [idPedido=54, tipo=Abastecimiento, idProveedor=10101, estado=No Entregado, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá] tuplas insertadas
+14:34:12,226 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:41:26,921 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:44:31,960 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:51:44,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:51:49,566 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:51:49,566 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:51:54,130 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:52:17,753 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:52:49,197 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:52:54,360 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:52:54,360 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:53:37,578 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:53:42,948 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:53:42,948 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:54:14,476 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:54:19,230 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:54:19,230 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:05:13,445 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:05:20,876 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:05:20,876 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:06:52,759 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:06:59,931 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:06:59,931 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:09:09,725 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:09:16,056 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:09:16,057 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:16:05,461 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:16:11,283 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:16:11,283 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:28:33,879 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:28:42,196 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:28:42,196 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:29:21,762 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:29:27,700 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:29:27,700 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:29:34,485 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:29:39,562 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:29:39,562 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:33:43,691 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:33:49,656 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:33:49,656 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:36:45,021 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:36:56,148 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:36:56,148 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:39:45,815 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:39:52,514 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:39:58,439 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:39:58,439 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:46:30,790 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:46:35,833 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:46:35,834 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:46:47,497 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: 111112
+15:46:49,777 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM PRODUCTO_SUPERMERCADO WHERE codigobarras = ?".
+ORA-02292: restricción de integridad (ISIS2304C03202220.SYS_C00852095) violada - registro secundario encontrado
+
+15:46:49,810 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: -1 tuplas eliminadas
+15:49:59,689 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:50:06,391 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:50:06,391 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:50:32,397 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: 111112
+15:50:33,189 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM PRODUCTO_SUPERMERCADO WHERE codigobarras = ?".
+ORA-02292: restricción de integridad (ISIS2304C03202220.SYS_C00852299) violada - registro secundario encontrado
+
+15:50:33,232 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: -1 tuplas eliminadas
+15:53:50,092 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:53:55,812 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:53:55,812 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:54:03,005 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: 111112
+15:54:03,769 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM PRODUCTO_SUPERMERCADO WHERE codigobarras = ?".
+ORA-02292: restricción de integridad (ISIS2304C03202220.SYS_C00852479) violada - registro secundario encontrado
+
+15:54:03,796 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: -1 tuplas eliminadas
+15:56:00,548 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:56:05,686 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:56:05,686 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:56:27,970 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Eliminando producto supermercado por codigo: 111112
+15:57:28,189 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM PRODUCTO_SUPERMERCADO WHERE codigobarras = ?".
+ORA-02292: restricción de integridad (ISIS2304C03202220.SYS_C00852585) violada - registro secundario encontrado
+
+20:24:03,835 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:28:27,398 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:28:27,399 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:30:28,340 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: Sucursal3
+20:30:34,391 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Sucursal: Sucursal [nombre=Sucursal3, direccion=Direccion3, ciudad=Bogotá, tamanho=200, gerente=10016, supermercado=Supermercado2]
+20:30:52,723 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:31:15,117 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:31:15,117 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:32:37,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:32:58,349 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:32:58,349 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:36:01,121 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Proveedor: Proveedor4
+20:36:07,394 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando Proveedor: Proveedor [nit=10104, nombre=Proveedor4, calificacion=Bueno, nombreSucursal=Sucursal1, direccionSucursal=direccion1, ciudadSucursal=Bogotá, supermercado=Supermercado1]
+08:24:58,865 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:36:29,955 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:36:36,503 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:36:36,503 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:39:15,324 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:39:21,543 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:39:21,543 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:40:09,268 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:40:14,994 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:40:14,994 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:43:19,126 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:43:25,563 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:43:25,563 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:45:15,450 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:45:23,130 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:45:23,130 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:49:37,609 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:49:44,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:49:44,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:49:51,590 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Buscando Producto supermercado con codigo: 111112
+08:50:07,948 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:50:16,692 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:50:16,692 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:50:51,201 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Buscando Producto supermercado con codigo: 111112
+09:40:52,100 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:40:57,492 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:40:57,492 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:41:49,494 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:41:53,470 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:41:53,470 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:45:57,490 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Buscando Producto supermercado con codigo: 111112
+09:47:20,846 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:47:25,954 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:47:25,954 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:47:33,342 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Buscando Producto supermercado con codigo: 111112
+09:50:18,851 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:50:22,790 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:50:22,790 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:51:53,921 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:51:58,994 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:51:58,994 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:52:06,940 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Buscando Producto supermercado con codigo: 111112
+09:55:30,782 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido
+09:55:31,820 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaSuperAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO PEDIDO(idpedido, tipo, proveedor, estado, nombreSucursal, direccionSucursal, ciudadSucursal) values (?, ?, ?, ?, ?, ?, ?)".
+ORA-00001: restricción única (ISIS2304C03202220.SYS_C00769406) violada
+
+09:55:31,832 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.SuperAndes] - Adicionando pedido: null tuplas insertadas
+10:12:19,694 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:12:24,495 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:12:24,495 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:50:27,982 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:36:10,743 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazSuperAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:55:44,684 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:55:46,026 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración por defecto
+09:56:49,405 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:56:50,499 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:56:50,499 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:36:20,946 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:36:22,179 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:36:22,179 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:44:12,950 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:44:13,965 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:44:13,965 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:47:44,198 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:47:48,542 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:47:48,542 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:48:42,904 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:48:48,036 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:48:48,042 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:49:23,299 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:49:24,386 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:49:24,386 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:49:45,277 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:49:46,984 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:49:46,984 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:50:14,814 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:50:16,221 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:50:16,221 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:17:39,261 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:17:42,255 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:17:42,255 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:18:47,915 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:18:51,412 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:18:51,413 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:22:18,070 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:22:20,234 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:22:20,234 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:09:28,193 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:09:29,922 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:09:29,923 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:11:34,714 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:11:36,313 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:11:36,314 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:15:14,906 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:15:16,567 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:15:16,568 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:16:43,453 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:16:44,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:16:44,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:18:17,059 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:18:19,624 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:18:19,624 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:18:42,106 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ALMACEN (usuario, contrasena, carnetUniandes, vinculacion, esOperador) values (?, ?, ?, ?, ?)".
+ORA-00942: la tabla o vista no existe
+
+14:19:26,859 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:19:28,700 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:19:28,700 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:19:44,024 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO ALMACEN (usuario, contrasena, carnetUniandes, vinculacion, esOperador) values (?, ?, ?, ?, ?)".
+ORA-00942: la tabla o vista no existe
+
+14:25:36,006 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:25:37,842 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:25:37,842 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:29:07,181 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:29:08,971 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:29:08,971 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:30:02,537 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT superandes_sequence.nextval FROM DUAL".
+ORA-02289: no existe la secuencia
+
+14:30:49,026 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:30:50,616 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:30:50,617 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:31:13,983 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT superandes_sequence.nextval FROM DUAL".
+ORA-02289: no existe la secuencia
+
+14:37:07,492 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:37:09,408 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:37:09,408 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:39:35,953 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OPERADORHOSTAL(identificacion, registroCamara, registroSuperintendencia, nombre, ubicacion, horaApertura, horaCierre, usuario) values (?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-01843: mes no válido
+
+14:41:10,065 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:41:11,596 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:41:11,596 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:47:18,803 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:47:21,129 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:47:21,129 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:48:38,966 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OPERADORHOSTAL(identificacion, registroCamara, registroSuperintendencia, nombre, ubicacion, horaApertura, horaCierre, usuario) values (?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-01843: mes no válido
+
+14:54:56,725 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:54:58,363 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:54:58,363 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:01:36,100 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:01:37,970 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:01:37,971 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:02:15,189 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:02:17,189 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:02:17,189 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:04:39,164 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:04:41,198 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:04:41,198 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:07:26,534 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:07:28,138 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:07:28,138 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:10:03,118 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:10:05,074 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:10:05,075 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:13:34,848 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:13:36,507 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:13:36,507 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:14:25,291 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:14:27,477 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:14:27,477 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:15:39,105 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:15:40,850 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:15:40,851 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:16:28,554 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:16:30,723 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:16:30,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:17:23,925 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:17:28,889 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:17:28,889 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:18:35,719 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:18:37,178 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:18:37,178 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:19:41,662 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:19:43,566 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:19:43,566 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:21:55,175 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:21:56,892 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:21:56,892 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:25:55,073 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:25:56,952 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:25:56,952 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:27:28,049 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:27:29,923 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:27:29,923 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:28:26,185 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:28:27,865 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:28:27,865 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:44:28,016 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:44:30,394 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:44:30,395 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:24:04,798 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:24:08,229 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:24:08,230 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:48:25,230 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:48:26,711 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:48:26,711 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:39:36,281 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:39:37,988 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:39:37,988 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:43:24,670 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:43:26,405 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:43:26,405 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:44:52,626 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTAS_ALOHAMIENTO (id, tipoOferta, operador) values (?, ?, ?)".
+ORA-00942: la tabla o vista no existe
+
+21:48:01,856 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:48:03,847 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:48:03,848 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:49:01,977 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT CAST('?' AS DATE) FROM DUAL".
+Índice de columna no válido
+21:50:59,875 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:51:01,870 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:51:01,870 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:03:01,218 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:03:03,193 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:03:03,193 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:14:51,850 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:18:01,062 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:18:02,978 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:18:02,978 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:19:31,494 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:19:33,566 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:19:33,567 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:20:47,899 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:21:38,796 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:21:41,038 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:21:41,038 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:22:34,875 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:22:37,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:22:37,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:23:43,094 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:23:44,909 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:23:44,909 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:24:26,355 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:24:28,356 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:24:28,356 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:01:30,785 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+00:17:37,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+00:18:44,462 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+00:19:21,216 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+00:19:22,376 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+00:19:22,376 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:21:29,550 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:21:32,663 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:21:32,664 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:25:49,050 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:25:52,357 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:25:52,357 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:27:30,150 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:27:32,988 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:27:32,988 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:29:24,972 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:29:27,302 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:29:27,302 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:30:20,770 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:30:24,477 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:30:24,478 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:31:56,492 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:31:59,509 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:31:59,509 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:33:03,730 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:33:06,422 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:33:06,424 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:33:42,995 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:33:46,334 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:33:46,334 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:35:59,931 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:36:03,185 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:36:03,185 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:37:11,398 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:37:14,627 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:37:14,627 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:48:48,530 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:48:51,332 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:48:51,332 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:54:35,464 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:54:37,441 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:54:37,441 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:56:10,860 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:56:13,300 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:56:13,300 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:57:30,472 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:57:33,303 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:57:33,303 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:00:56,031 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:00:58,948 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:00:58,948 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:02:24,474 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:02:27,208 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:02:27,208 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:01:46,706 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:01:48,269 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:01:48,269 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:04:03,660 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:04:04,670 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:04:04,670 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:06:08,119 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:06:09,183 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:06:09,183 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:12:37,305 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:12:38,406 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:12:38,407 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:14:46,334 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:14:47,411 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:14:47,411 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:16:09,007 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:16:10,083 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:16:10,083 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:17:04,799 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:17:05,799 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:17:05,799 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:20:04,497 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:20:05,488 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:20:05,488 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:20:37,885 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:20:38,911 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:20:38,911 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:21:23,058 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:21:24,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:21:24,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+16:22:16,507 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:22:17,465 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:22:17,465 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:13:15,063 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:13:16,305 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:13:16,305 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:22:22,436 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:22:23,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:22:23,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:24:32,516 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:24:33,519 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:24:33,519 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:26:17,083 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:26:18,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:26:18,061 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:27:51,357 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:27:52,360 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:27:52,360 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+17:29:21,164 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:29:22,081 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:29:22,081 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:37:40,336 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:37:41,431 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:37:41,431 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:39:02,710 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:39:03,595 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:39:03,595 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+19:47:25,913 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+19:47:26,827 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+19:47:26,827 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:36:48,771 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:36:49,868 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:36:49,868 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:38:26,535 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:38:27,474 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:38:27,474 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:38:45,839 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:38:46,764 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:38:46,764 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:39:03,568 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:39:04,486 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:39:04,486 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:27:30,733 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:27:31,952 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:27:31,952 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:33:49,147 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:33:50,152 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:33:50,153 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:35:38,671 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:35:39,628 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:35:39,628 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:37:35,203 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : SQL query tiene parametro "12" pero no existe en el query : INSERT INTO OFERTA_HABITACION (id, costo, tipo, tamano, piso, categoria, fechaInicio, fechaFin, menaje, capacidad, operador, reserva) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+22:42:42,223 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:42:43,123 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:42:43,124 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:43:40,489 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTA_HABITACION (id, costo, tipo, tamano, piso, categoria, fechaInicio, fechaFin, menaje, capacidad, operador, reserva) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-02291: restricción de integridad (SYSTEM.FK_RESERVA_OFERTA_HABITACION) violada - clave principal no encontrada
+
+22:44:39,510 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:44:40,480 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:44:40,480 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:49:17,300 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:49:18,280 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:49:18,280 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:50:33,520 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+22:50:34,452 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+22:50:34,453 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+22:51:26,558 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTA_HABITACION (id, costo, tipo, tamano, piso, categoria, fechaInicio, fechaFin, menaje, capacidad, operador, reserva) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-02290: restricción de control (SYSTEM.CK_TIPO_OFERTA_HABITACION) violada
+
+23:02:23,857 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:02:24,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:02:24,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:04:02,380 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:04:03,375 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:04:03,375 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:04:36,039 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE * FROM OFERTAS_ALOJAMIENTO WHERE id = ?".
+ORA-00903: nombre de tabla no válido
+
+23:06:12,127 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:06:13,078 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:06:13,079 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:15:43,447 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:15:44,622 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:15:44,622 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:16:36,349 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTAS_ALOJAMIENTO (id, tipoOferta, operador) values (?, ?, ?)".
+ORA-02290: restricción de control (SYSTEM.CK_TIPO_OFERTA) violada
+
+23:18:37,990 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTAS_ALOJAMIENTO (id, tipoOferta, operador) values (?, ?, ?)".
+ORA-02290: restricción de control (SYSTEM.CK_TIPO_OFERTA) violada
+
+23:25:55,762 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:25:56,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:25:56,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:32:30,685 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:32:31,729 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:32:31,729 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:33:51,831 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : SQL query "DELETE FROM OFERTAS_ALOJAMIENTO WHERE id = ?" necesita 1 parametros pero no hay ninguno
+
+23:37:45,302 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:37:46,245 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:37:46,246 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:38:17,680 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Cannot invoke "uniandes.isis2304.parranderos.negocio.OfertasAlojamiento.getTipoOferta()" because "tipoOferta" is null
+
+23:44:21,760 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:44:22,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:44:22,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:47:14,595 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:47:15,591 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:47:15,592 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+23:50:42,022 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+23:50:42,963 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+23:50:42,963 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:46:11,253 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:46:14,243 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:46:14,245 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:48:25,541 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTA_HABITACION (id, costo, tipo, tamano, piso, categoria, fechaInicio, fechaFin, menaje, capacidad, operador, reserva) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-01841: el valor (completo) del año debe estar entre -4713 y +9999, y no debe ser igual a 0
+
+08:49:36,332 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "DELETE * FROM OFERTA_HABITACION WHERE id = ?".
+ORA-00903: nombre de tabla no válido
+
+08:55:06,465 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:55:08,359 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:55:08,360 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+08:55:08,971 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+08:55:11,185 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+08:55:11,185 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:00:27,205 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:00:29,188 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:00:29,198 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:05:30,014 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO APARTAMENTO (numero, conjunto, direccion, amoblado, dueno) values (?, ?, ?, ?, ?)".
+ORA-01722: número no válido
+
+09:05:30,035 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO OFERTA_APARTAMENTO (id, costo, serviciosIncluidos, tv, internet, administracion, capacidad, numeroApartamento, conjuntoApartamento, direccionApartamento, operador, fechaInicio, fechaFin) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)".
+ORA-00904: "ADMINISTRACION": identificador no válido
+
+09:15:34,488 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:15:35,927 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:15:35,927 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:32:10,240 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:32:11,909 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:32:11,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:33:40,453 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:33:41,896 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:33:41,896 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:37:38,522 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:37:40,167 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:37:40,167 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:38:32,408 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:38:34,158 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:38:34,158 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:39:49,966 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:39:51,925 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:39:51,925 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:42:29,273 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:42:30,850 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:42:30,850 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:43:30,998 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:43:32,502 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:43:32,502 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:46:30,937 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:46:32,526 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:46:32,526 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:47:31,383 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:47:33,113 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:47:33,113 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:48:39,480 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:48:41,258 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:48:41,258 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:52:15,997 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:52:17,719 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:52:17,719 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:54:17,359 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:54:19,049 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:54:19,049 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:55:13,581 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:55:15,543 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:55:15,543 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:01:08,069 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:01:09,701 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:01:09,701 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:03:18,304 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:03:19,638 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:03:19,638 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:19:20,494 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:19:21,797 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:19:21,797 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:22:25,112 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:22:26,546 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:22:26,546 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:33:59,274 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:34:00,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:34:00,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:35:33,440 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:35:34,892 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:35:34,892 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:37:51,876 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:37:53,232 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:37:53,232 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:40:01,320 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:40:02,906 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:40:02,906 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:41:28,151 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:41:30,010 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:41:30,010 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:43:35,897 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:43:37,261 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:43:37,261 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:46:25,303 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:46:27,040 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:46:27,040 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:52:59,429 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:53:00,906 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:53:00,906 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:54:40,484 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:54:42,353 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:54:42,353 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:55:10,167 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT * FROM OFERTA_HABITACION WHERE costo < 260000 AND tipo = 'Suite' AND categoria = 'Hostal';".
+ORA-00933: comando SQL no terminado correctamente
+
+10:56:11,229 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:56:12,767 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:56:12,767 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+10:57:08,496 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT * FROM OFERTA_HABITACION WHERE costo < ? AND tipo = ? AND categoria = ? ;".
+ORA-00933: comando SQL no terminado correctamente
+
+10:58:33,433 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+10:58:35,023 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+10:58:35,023 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:03:39,615 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:03:40,922 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:03:40,923 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:13:09,243 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:13:11,396 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:13:11,397 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:30:28,463 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:30:30,592 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:30:30,592 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:34:18,065 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:34:19,677 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:34:19,677 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:36:38,334 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:36:39,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:36:39,724 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:38:46,534 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:38:48,384 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:38:48,384 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:49:44,787 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:49:46,720 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:49:46,721 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:53:09,493 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+11:53:11,902 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+11:53:11,902 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+11:54:14,274 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "COSTO"  tipo "java.math.BigDecimal". El campo debe tener un metodo publico set/put o ser publico.
+
+12:00:51,493 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:00:53,039 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:00:53,039 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:01:15,689 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "TAMANO"  tipo "java.lang.String". El campo debe tener un metodo publico set/put o ser publico.
+
+12:09:53,252 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:09:54,903 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:09:54,903 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:10:15,029 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "TAMANO"  tipo "java.lang.String". El campo debe tener un metodo publico set/put o ser publico.
+
+12:13:39,562 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:13:40,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:13:40,890 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:14:05,102 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "TAMANO"  tipo "java.lang.String". El campo debe tener un metodo publico set/put o ser publico.
+
+12:15:43,089 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:15:44,783 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:15:44,784 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:16:05,292 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "RESERVA"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+12:19:15,887 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:19:18,087 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:19:18,087 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:19:37,043 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "RESERVA"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+12:26:58,690 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+12:27:00,249 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+12:27:00,250 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+12:30:33,802 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : Error con la ejecucion de Query de SQL "SELECT * FROM OFERTA_APARTAMENTO WHERE servicios = ? AND tv = ? AND internet = ? AND administracion = ?".
+ORA-00904: "SERVICIOS": identificador no válido
+
+13:02:10,029 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:02:11,515 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:02:11,515 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:08:53,611 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:08:55,093 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:08:55,093 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:10:21,903 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:10:23,694 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:10:23,695 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:18:45,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:18:47,780 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:18:47,780 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:20:59,623 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:21:01,379 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:21:01,379 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:21:47,231 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:21:48,798 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:21:48,798 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:23:35,937 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:23:37,702 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:23:37,703 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:30:31,979 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:30:33,726 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:30:33,727 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:32:31,610 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:32:33,877 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:32:33,877 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:38:28,578 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:38:30,262 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:38:30,262 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:39:55,239 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:39:57,205 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:39:57,205 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:40:47,398 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : El Query tenia que devolver objetos de tipo "uniandes.isis2304.parranderos.negocio.OfertaHabitacion" pero era imposible poner el valor al campo "RESERVA"  tipo "null". El campo debe tener un metodo publico set/put o ser publico.
+
+13:49:21,202 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:49:22,872 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:49:22,872 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:50:02,736 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:50:04,391 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:50:04,391 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:57:51,070 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:57:52,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:57:52,786 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:03:59,233 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:04:01,078 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:04:01,078 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:08:17,729 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:08:19,199 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:08:19,199 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:21:19,565 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:21:21,487 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:21:21,487 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+14:23:26,005 (AWT-EventQueue-0) ERROR [uniandes.isis2304.parranderos.persistencia.PersistenciaAlohAndes] - Exception : class uniandes.isis2304.parranderos.negocio.OfertaHabitacion cannot be cast to class java.util.List (uniandes.isis2304.parranderos.negocio.OfertaHabitacion is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+
+14:25:38,622 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+14:25:40,007 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+14:25:40,007 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+09:38:31,227 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+09:38:33,928 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+09:38:33,928 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:22:08,412 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:22:09,845 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:22:09,845 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:23:20,375 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:23:21,370 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:23:21,370 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:24:36,015 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:24:37,025 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:24:37,025 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:26:49,833 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:26:50,832 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:26:50,832 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:28:38,019 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:28:39,128 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:28:39,128 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:29:30,969 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:29:32,079 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:29:32,079 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:31:11,339 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:31:12,512 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:31:12,512 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:32:15,557 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:32:16,601 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:32:16,601 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:33:42,003 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:33:43,038 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:33:43,038 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:34:53,353 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:34:54,386 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:34:54,386 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:37:37,871 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:37:38,894 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:37:38,894 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:39:14,618 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:39:15,713 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:39:15,713 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:42:20,118 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:42:21,183 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:42:21,183 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:45:44,625 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:45:45,978 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:45:45,978 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:48:30,550 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:48:31,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:48:31,910 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:50:36,968 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:50:38,341 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:50:38,341 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:54:13,484 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:54:14,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:54:14,426 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:54:20,670 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:54:22,080 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:54:22,081 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+20:59:42,008 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:59:43,032 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:59:43,032 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:02:05,524 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:02:06,585 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:02:06,585 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:04:53,955 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:04:54,954 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:04:54,954 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:07:33,041 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:07:34,022 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:07:34,022 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:12:09,967 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:12:10,953 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:12:10,953 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:12:59,294 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:13:00,398 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:13:00,398 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:14:37,933 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:14:38,943 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:14:38,943 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:26:55,739 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:26:56,918 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:26:56,919 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:29:44,161 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:29:45,194 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:29:45,194 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:38:39,204 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:38:40,330 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:38:40,330 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:43:51,855 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:43:53,142 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:43:53,142 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración
+21:45:27,713 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:45:28,777 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:45:28,777 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazAlohAndesApp] - Se aplica configuración indicada en el archivo de configuración

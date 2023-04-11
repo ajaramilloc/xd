@@ -1,0 +1,28 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Administrador",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registros",
+		  "options":
+			[
+				{
+					"label": "Registrar roles de usuario",
+					"event": "registrarRolesUsuario"
+				},
+				{
+					"label": "Registrar una sucursal",
+					"event": "registrarSucursal"
+				},
+				{
+					"label": "Registrar Usuarios",
+					"event": "registrarUsuario"
+				}
+			]
+		}	
+		
+	]
+}
+	

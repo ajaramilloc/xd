@@ -1,0 +1,43 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Operador",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+			
+		{ "menuTitle": "Manejos de pedidos",
+		  "options":
+			[
+				{
+					"label": "Registrar la llegada de un pedido de un producto a una sucursal",
+					"event": "registrarLlegadaPedido"
+				},
+				{
+					"label": "Registrar la llegada de un pedido consolidado",
+					"event": "registrarLlegadaPedido"
+				}
+			]
+		},		
+		{ "menuTitle": "Manejo de estantes",
+		  "options":
+			[
+				{
+					"label": "Aprovisionar un estante de productos",
+					"event": "aprovisionarEstante"
+				}
+			]
+		},		
+		{ "menuTitle": "Recoleccion de productos",
+		  "options":
+			[
+				{
+					"label": "Recolectar productos abandonados",
+					"event": "recolectarProductosAbandonados"
+				}
+			]
+		}	
+		
+	]
+}
+	

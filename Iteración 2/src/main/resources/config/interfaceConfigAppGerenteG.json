@@ -1,0 +1,40 @@
+{
+	"title": "Aplicación transaccional de SuperAndes para Gerente General de un supermercado",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[		
+		
+		{ "menuTitle": "Consultas",
+		  "options":
+			[
+				{
+					"label": "Mostrar dinero recolectado por ventas",
+					"event": "consultarDineroRecolectado"
+				},
+				{
+					"label": "Mostrar las 20 promociones más populares",
+					"event": "consultarPromocionesPopulares"
+				},
+				{
+					"label": "Mostrar índice de ocupación de bogedas y estantes",
+					"event": "consultarIndiceOcupacion"
+				},
+				{
+					"label": "Mostrar productos que cumplen condiciones",
+					"event": "consultarProductosEspecificos"
+				},{
+					"label": "Mostar compras hechas a proveedores",
+					"event": "consultarComprasProveedores"
+				},
+				{
+					"label": "Mostrar ventas a un cliente",
+					"event": "consultarVentasCliente"
+				}
+			]
+		}		
+		
+	]
+}
+	
